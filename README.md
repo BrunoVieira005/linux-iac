@@ -24,6 +24,7 @@ O script realiza o provisionamento completo de uma estrutura de diretórios e us
 ## Requisitos
 
 - Sistema Linux (com **bash** disponível)
+- Acesso **root**
 
 ## Como usar?
 
@@ -37,10 +38,10 @@ O script realiza o provisionamento completo de uma estrutura de diretórios e us
     chmod +x iac.sh
     ```
 
-4. Execute o script com sudo:
+4. Execute o script:
 
     ```bash
-    sudo ./iac.sh
+    ./iac.sh
     ```
 
     O script criará os diretórios, grupos, usuários e configurará as permissões automaticamente.
